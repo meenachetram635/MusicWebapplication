@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(176, 179, 182);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.brand img{
+    height: 40px;
+    /* width: 40px; */
+    padding: 0px 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: rgb(1, 1, 15);
+    color: rgb(20, 18, 18);
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 24px;
+    background-image: url("bg4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+    
+}
+
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+#myprogressbar{
+    width: 80vw;
+    /* margin: auto; */
+    cursor: pointer;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(6, 6, 6);
+    width: 80%;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border: 5px solid rgb(13, 13, 119);
+    border-radius: 23px;
+}
+
+.songitem img{
+    width: 25%;
+    height: 100%;
+    border: 2px solid gray;
+    border-radius: 100px;
+    
+}
+
+.songitem span{
+    margin-right: 20px;
+}
+
+.songlistplay i{
+    cursor: pointer;
+}
+
+.gifsound{
+    position: absolute;
+    left: 100px;
+    height: 50px;
+    opacity: 0;
+    transition:  0.4s ease-in;
+}
+
+
